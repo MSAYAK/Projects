@@ -1,0 +1,60 @@
+div{
+    display:block;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color:blue;
+    font-family: Arial;
+  }
+  
+
+  
+  .navbar a:hover{
+    background-color: red;
+    text-decoration:none;
+}
+li{
+    display:inline;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+ul a,li a
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+/*footer*/
+.gray-footer
+{
+  background-color:#262626;;
+  height: 440px;
+  margin-top: 100px;
+}
+
+.footer-text
+{
+  color: white;
+  font-size: 20px;
+  text-shadow: white;
+  text-align:center;
+  bottom: 100px;
+  font-family: ubuntu;
+}
+:after,:before{
+    box-sizing:border-box;
+}
+
+ul:before,ul:after{
+    content: " ";
+    display:table;
+}
