@@ -2,11 +2,7 @@ div{
     display:block;
 }
 
-.navbar {
-    overflow: hidden;
-    background-color:blue;
-    font-family: Arial;
-  }
+
   
 
   
@@ -14,9 +10,7 @@ div{
     background-color: red;
     text-decoration:none;
 }
-li{
-    display:inline;
-}
+
 li a {
     display: block;
     color: white;
@@ -25,14 +19,8 @@ li a {
     text-decoration: none;
   }
 
-ul a,li a
-{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-}
+
+
 /*footer*/
 .gray-footer
 {
@@ -50,11 +38,4 @@ ul a,li a
   bottom: 100px;
   font-family: ubuntu;
 }
-:after,:before{
-    box-sizing:border-box;
-}
 
-ul:before,ul:after{
-    content: " ";
-    display:table;
-}
